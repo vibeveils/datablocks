@@ -55,10 +55,22 @@ you to restart (in the log, in chat for the singleplayer owner, and through `/da
 
 ### Adding blocks to a world
 
-- **Singleplayer:** put the pack in the world's `datapacks/` folder and restart Minecraft. If you add a pack
-  when you create the world, the game tells you to restart once the world opens.
-- **Server:** put the pack in `world/datapacks/` and restart the server. Send clients the assets with a server
-  resource pack (`resource-pack=` in `server.properties`).
+- **Existing world:** put the pack in its `datapacks/` folder (on a server, `world/datapacks/`) and restart.
+- **New world:** add the pack on the Create World screen as usual. If the pack's worldgen, recipes or tags
+  mention its own blocks, which any custom dimension does, Minecraft refuses it the first time with "data pack
+  validation failed", because those blocks don't exist yet. Data Blocks catches this *before* validation runs.
+  It saves the pack's block definitions to `datablocks/auto_installed/` and logs which blocks it found. Restart,
+  create the world again with the same pack, and it loads.
+- `/reload` with a new pack, or turning a pack on with `/datapack enable`, goes through the same check, so the
+  restart it needs registers the new blocks automatically.
+- **Shipping big content:** you can also ship a pack as a mod jar with `data/` and `assets/` at the root and a
+  minimal `fabric.mod.json`. Fabric loads the jar's data and assets as always-on packs, and Data Blocks
+  registers its definitions at startup, so nothing needs a restart. `./gradlew oddlandsJar` builds the Oddlands
+  this way.
+
+Why a restart at all? Minecraft fixes its block list, numeric block-state IDs (used in every chunk and packet),
+item registry and baked block models during startup. Changing them in a running game would invalidate all of
+those. Big content frameworks (KubeJS, Forge) need a restart for new blocks for the same reason.
 
 ### Joining a server
 
@@ -179,7 +191,7 @@ rather than only in `datablocks/packs/`.
 
 - `/datablocks` shows a summary.
 - `/datablocks list` shows every registered data block and whether this world's packs define it.
-- `/datablocks pending` shows what is waiting for a restart.
+- `/datablocks pending` shows what is waiting for a restart, including blocks just auto-installed.
 
 ## For mod developers: custom components
 

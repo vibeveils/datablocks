@@ -78,6 +78,20 @@ tasks.register('oddlandsResourcepack', Zip) {
 	destinationDirectory = layout.buildDirectory.dir('libs')
 }
 
+// The same content as a drop-in mod jar: Fabric loads a mod's data/ and assets/ as always-on packs, and Data Blocks
+// registers block definitions found in mod jars at startup, so this needs no data pack setup or restart.
+tasks.register('oddlandsJar', Zip) {
+	def version = project.version
+	inputs.property "version", version
+	archiveFileName = "oddlands-${version}.jar"
+	destinationDirectory = layout.buildDirectory.dir('libs')
+	from('oddlands/oddlands_datapack') { exclude 'pack.mcmeta' }
+	from('oddlands/oddlands_resourcepack') { exclude 'pack.mcmeta' }
+	from('oddlands/jar') {
+		filesMatching('fabric.mod.json') { expand 'version': version }
+	}
+}
+
 tasks.register('packs') {
-	dependsOn 'examplePack', 'oddlandsDatapack', 'oddlandsResourcepack'
+	dependsOn 'examplePack', 'oddlandsDatapack', 'oddlandsResourcepack', 'oddlandsJar'
 }
