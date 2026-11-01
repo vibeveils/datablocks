@@ -1,0 +1,135 @@
+{
+  "type": "minecraft:min",
+  "left": {
+    "type": "minecraft:min",
+    "left": {
+      "type": "minecraft:max",
+      "left": {
+        "type": "minecraft:min",
+        "left": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": {
+                "type": "minecraft:sub",
+                "left": "oddlands:surface_height",
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 58.0,
+                  "right": "oddlands:canyon"
+                }
+              },
+              "right": "minecraft:y"
+            },
+            "right": 8.0
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 0.35,
+            "right": {
+              "type": "minecraft:noise",
+              "noise": "oddlands:rough",
+              "xz_scale": 1.0,
+              "y_scale": 1.0
+            }
+          }
+        },
+        "right": {
+          "type": "minecraft:add",
+          "left": {
+            "type": "minecraft:div",
+            "left": {
+              "type": "minecraft:sub",
+              "left": "minecraft:y",
+              "right": {
+                "type": "minecraft:sub",
+                "left": {
+                  "type": "minecraft:sub",
+                  "left": "oddlands:surface_height",
+                  "right": {
+                    "type": "minecraft:add",
+                    "left": 10.0,
+                    "right": {
+                      "type": "minecraft:mul",
+                      "left": 70.0,
+                      "right": "oddlands:land"
+                    }
+                  }
+                },
+                "right": {
+                  "type": "minecraft:mul",
+                  "left": 36.0,
+                  "right": {
+                    "type": "minecraft:abs",
+                    "input": {
+                      "type": "minecraft:noise",
+                      "noise": "oddlands:underside",
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
+                  }
+                }
+              }
+            },
+            "right": 5.0
+          },
+          "right": {
+            "type": "minecraft:mul",
+            "left": 1.2,
+            "right": {
+              "type": "minecraft:noise",
+              "noise": "oddlands:rough",
+              "xz_scale": 1.0,
+              "y_scale": 1.0
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:sub",
+        "left": {
+          "type": "minecraft:sub",
+          "left": {
+            "type": "minecraft:noise",
+            "noise": "oddlands:islets",
+            "xz_scale": 1.0,
+            "y_scale": 1.0
+          },
+          "right": 0.52
+        },
+        "right": {
+          "type": "minecraft:div",
+          "left": {
+            "type": "minecraft:abs",
+            "input": {
+              "type": "minecraft:sub",
+              "left": "minecraft:y",
+              "right": 150.0
+            }
+          },
+          "right": 80.0
+        }
+      }
+    },
+    "right": {
+      "type": "minecraft:div",
+      "left": {
+        "type": "minecraft:sub",
+        "left": "minecraft:y",
+        "right": 10.0
+      },
+      "right": 4.0
+    }
+  },
+  "right": {
+    "type": "minecraft:div",
+    "left": {
+      "type": "minecraft:sub",
+      "left": 300.0,
+      "right": "minecraft:y"
+    },
+    "right": 6.0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:tree",
+  "below_trunk_provider": {
+    "type": "minecraft:rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "minecraft:not",
+          "predicate": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "minecraft:cannot_replace_below_tree_trunk"
+          }
+        },
+        "then": {
+          "id": "oddlands:mulch"
+        }
+      }
+    ]
+  },
+  "decorators": [
+    {
+      "type": "minecraft:attached_to_leaves",
+      "block_provider": {
+        "id": "oddlands:dangleroot"
+      },
+      "directions": [
+        "down"
+      ],
+      "exclusion_radius_xz": 1,
+      "exclusion_radius_y": 0,
+      "probability": 0.12,
+      "required_empty_blocks": 1
+    },
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "id": "oddlands:sap_glob"
+      },
+      "directions": [
+        "north",
+        "south",
+        "east",
+        "west"
+      ],
+      "probability": 0.04
+    }
+  ],
+  "foliage_placer": {
+    "type": "minecraft:blob_foliage_placer",
+    "height": 3,
+    "offset": 0,
+    "radius": 3
+  },
+  "foliage_provider": {
+    "id": "oddlands:jellyleaf"
+  },
+  "ignore_vines": true,
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "trunk_placer": {
+    "type": "minecraft:bending_trunk_placer",
+    "base_height": 4,
+    "bend_length": {
+      "type": "minecraft:uniform",
+      "max_inclusive": 2,
+      "min_inclusive": 1
+    },
+    "height_rand_a": 3,
+    "height_rand_b": 0,
+    "min_height_for_leaves": 3
+  },
+  "trunk_provider": {
+    "id": "oddlands:bulbwood_log",
+    "properties": {
+      "axis": "y"
+    }
+  }
+}

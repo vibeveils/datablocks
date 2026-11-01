@@ -1,0 +1,51 @@
+{
+  "default_block": "oddlands:knobstone",
+  "default_fluid": "minecraft:water",
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "material_rule": "oddlands:oddlands",
+  "noise": {
+    "height": 320,
+    "min_y": 0
+  },
+  "noise_router": {
+    "chunk_surface_level": 0.0,
+    "continents": "oddlands:continents",
+    "depth": 0.0,
+    "erosion": 0.0,
+    "final_density": {
+      "type": "minecraft:add",
+      "left": {
+        "type": "minecraft:squeeze",
+        "input": {
+          "type": "minecraft:interpolated",
+          "cell_size_xz": 8,
+          "cell_size_y": 4,
+          "input": {
+            "type": "minecraft:mul",
+            "left": "oddlands:base_shape",
+            "right": 0.64
+          }
+        }
+      },
+      "right": {
+        "type": "minecraft:beardifier"
+      }
+    },
+    "ridges": 0.0,
+    "temperature": {
+      "type": "minecraft:noise",
+      "noise": "oddlands:temperature",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    },
+    "vegetation": {
+      "type": "minecraft:noise",
+      "noise": "oddlands:vegetation",
+      "xz_scale": 1.0,
+      "y_scale": 0.0
+    }
+  },
+  "sea_level": -64,
+  "spawn_target": []
+}

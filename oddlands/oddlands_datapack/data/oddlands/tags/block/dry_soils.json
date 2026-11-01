@@ -1,0 +1,22 @@
+{
+  "values": [
+    {
+      "id": "oddlands:chalkdust",
+      "required": false
+    },
+    {
+      "id": "oddlands:bonestone",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:banded_rustrock",
+      "required": false
+    },
+    "#minecraft:sand",
+    "#minecraft:terracotta"
+  ]
+}

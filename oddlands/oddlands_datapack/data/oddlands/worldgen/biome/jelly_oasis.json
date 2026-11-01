@@ -1,0 +1,123 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 9000,
+        "sound": "minecraft:music.overworld.lush_caves"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:frog",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 10
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 60
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 10
+            }
+          ],
+          "water_creature": [
+            {
+              "type": "minecraft:axolotl",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 4
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/sky_color": "#c7a4f0",
+    "minecraft:visual/fog_color": "#f0c6e4",
+    "minecraft:visual/water_fog_color": "#4fd6c8",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:spore_blossom_air"
+          },
+          "probability": 0.004
+        }
+      ],
+      "modifier": "append"
+    }
+  },
+  "carvers": [
+    "oddlands:island_canyon",
+    "oddlands:island_cave"
+  ],
+  "downfall": 0.9,
+  "effects": {
+    "water_color": "#4fd6c8",
+    "grass_color": "#5fd0b0",
+    "foliage_color": "#9ee08a"
+  },
+  "features": [
+    [],
+    [
+      "oddlands:oasis_pond"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "oddlands:ore_copperknob",
+      "oddlands:ore_sap"
+    ],
+    [],
+    [
+      "oddlands:spring_water"
+    ],
+    [
+      "oddlands:dangleroots",
+      "oddlands:oasis_trees",
+      "oddlands:patch_peeper_grass",
+      "oddlands:patch_glowgulp",
+      "oddlands:patch_blinkbloom",
+      "oddlands:patch_gawkcap"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "temperature": 0.8
+}

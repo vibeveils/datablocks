@@ -1,0 +1,112 @@
+{
+  "values": [
+    {
+      "id": "minecraft:air",
+      "required": false
+    },
+    {
+      "id": "minecraft:cave_air",
+      "required": false
+    },
+    {
+      "id": "minecraft:void_air",
+      "required": false
+    },
+    {
+      "id": "minecraft:light",
+      "required": false
+    },
+    "#minecraft:leaves",
+    "#minecraft:flowers",
+    "#minecraft:saplings",
+    {
+      "id": "minecraft:short_grass",
+      "required": false
+    },
+    {
+      "id": "minecraft:tall_grass",
+      "required": false
+    },
+    {
+      "id": "minecraft:fern",
+      "required": false
+    },
+    {
+      "id": "minecraft:large_fern",
+      "required": false
+    },
+    {
+      "id": "minecraft:snow",
+      "required": false
+    },
+    {
+      "id": "minecraft:vine",
+      "required": false
+    },
+    {
+      "id": "minecraft:dead_bush",
+      "required": false
+    },
+    {
+      "id": "minecraft:bush",
+      "required": false
+    },
+    "#minecraft:logs",
+    {
+      "id": "oddlands:jellyleaf",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_log",
+      "required": false
+    },
+    {
+      "id": "oddlands:peeper_grass",
+      "required": false
+    },
+    {
+      "id": "oddlands:ribgrass",
+      "required": false
+    },
+    {
+      "id": "oddlands:sulkweed",
+      "required": false
+    },
+    {
+      "id": "oddlands:husk_shrub",
+      "required": false
+    },
+    {
+      "id": "oddlands:blinkbloom",
+      "required": false
+    },
+    {
+      "id": "oddlands:gawkcap",
+      "required": false
+    },
+    {
+      "id": "oddlands:glowgulp",
+      "required": false
+    },
+    {
+      "id": "oddlands:dangleroot",
+      "required": false
+    },
+    {
+      "id": "oddlands:dustpuff",
+      "required": false
+    },
+    {
+      "id": "oddlands:gawkcap_cap",
+      "required": false
+    },
+    {
+      "id": "oddlands:gawkcap_stem",
+      "required": false
+    },
+    {
+      "id": "oddlands:wobble_sprout",
+      "required": false
+    }
+  ]
+}

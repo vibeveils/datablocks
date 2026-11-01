@@ -1,0 +1,46 @@
+{
+  "values": [
+    {
+      "id": "oddlands:dripcrust",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:mulch",
+      "required": false
+    },
+    {
+      "id": "oddlands:bonestone",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:banded_rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:squishmoss",
+      "required": false
+    },
+    {
+      "id": "oddlands:dangleroot",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_log",
+      "required": false
+    },
+    {
+      "id": "oddlands:jellyleaf",
+      "required": false
+    },
+    "#minecraft:base_stone_overworld",
+    "#minecraft:dirt"
+  ]
+}

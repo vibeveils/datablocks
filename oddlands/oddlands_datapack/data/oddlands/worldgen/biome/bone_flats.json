@@ -1,0 +1,118 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 24000,
+        "min_delay": 9000,
+        "sound": "minecraft:music.overworld.desert"
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "creature": [
+            {
+              "type": "minecraft:rabbit",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 3
+              },
+              "weight": 8
+            }
+          ],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              },
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 60
+            },
+            {
+              "type": "minecraft:enderman",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 10
+            },
+            {
+              "type": "minecraft:husk",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              },
+              "weight": 40
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:visual/sky_color": "#d8c7e8",
+    "minecraft:visual/fog_color": "#efe2d2",
+    "minecraft:visual/water_fog_color": "#7fb6c0",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:white_ash"
+          },
+          "probability": 0.006
+        }
+      ],
+      "modifier": "append"
+    }
+  },
+  "carvers": [
+    "oddlands:island_canyon",
+    "oddlands:island_cave"
+  ],
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#7fb6c0",
+    "grass_color": "#c0b48a",
+    "foliage_color": "#b0a070"
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "oddlands:ore_copperknob"
+    ],
+    [],
+    [
+      "oddlands:spring_water"
+    ],
+    [
+      "oddlands:dangleroots",
+      "oddlands:ribstone_pillars",
+      "oddlands:patch_ribgrass",
+      "oddlands:patch_tooth_crystal",
+      "oddlands:patch_dustpuff",
+      "oddlands:patch_husk_shrub"
+    ],
+    []
+  ],
+  "has_precipitation": false,
+  "temperature": 0.6
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:random_selector",
+  "default": "oddlands:bulbwood_tree",
+  "features": [
+    {
+      "chance": 0.3,
+      "feature": "oddlands:tall_bulbwood_tree"
+    },
+    {
+      "chance": 0.1,
+      "feature": "oddlands:giant_gawkcap"
+    }
+  ]
+}

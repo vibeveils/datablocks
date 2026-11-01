@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "minecraft:cobblestone",
+      "required": false
+    },
+    {
+      "id": "minecraft:mossy_cobblestone",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "required": false
+    },
+    {
+      "id": "minecraft:mossy_stone_bricks",
+      "required": false
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "required": false
+    },
+    {
+      "id": "minecraft:deepslate_bricks",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone_bricks",
+      "required": false
+    },
+    {
+      "id": "oddlands:polished_knobstone",
+      "required": false
+    }
+  ]
+}

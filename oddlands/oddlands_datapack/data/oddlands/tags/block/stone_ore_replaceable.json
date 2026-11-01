@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "oddlands:knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:dripcrust",
+      "required": false
+    }
+  ]
+}

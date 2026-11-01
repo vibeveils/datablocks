@@ -1,0 +1,17 @@
+{
+  "values": [
+    {
+      "id": "oddlands:squishmoss",
+      "required": false
+    },
+    {
+      "id": "oddlands:mulch",
+      "required": false
+    },
+    "#minecraft:dirt",
+    {
+      "id": "minecraft:moss_block",
+      "required": false
+    }
+  ]
+}

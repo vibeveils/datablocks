@@ -1,0 +1,31 @@
+{
+  "parent": "oddlands:through_the_well",
+  "criteria": {
+    "picked": {
+      "conditions": {
+        "items": [
+          {
+            "items": "oddlands:blinkbloom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.oddlands.peeper.description"
+    },
+    "icon": {
+      "id": "oddlands:blinkbloom"
+    },
+    "title": {
+      "translate": "advancements.oddlands.peeper.title"
+    }
+  },
+  "requirements": [
+    [
+      "picked"
+    ]
+  ]
+}

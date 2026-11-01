@@ -1,0 +1,27 @@
+{
+  "parent": "oddlands:wishing_well",
+  "criteria": {
+    "entered": {
+      "conditions": {
+        "to": "oddlands:oddlands"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.oddlands.through_the_well.description"
+    },
+    "icon": {
+      "id": "oddlands:squishmoss"
+    },
+    "title": {
+      "translate": "advancements.oddlands.through_the_well.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered"
+    ]
+  ]
+}

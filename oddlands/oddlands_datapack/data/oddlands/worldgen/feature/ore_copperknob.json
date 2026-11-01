@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:ore",
+  "discard_chance_on_air_exposure": 0.0,
+  "size": 9,
+  "targets": [
+    {
+      "state": {
+        "id": "oddlands:copperknob_ore"
+      },
+      "target": {
+        "predicate_type": "minecraft:tag_match",
+        "tag": "oddlands:stone_ore_replaceable"
+      }
+    }
+  ]
+}

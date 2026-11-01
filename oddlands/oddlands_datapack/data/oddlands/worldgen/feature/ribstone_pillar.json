@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block_column",
+  "allowed_placement": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "minecraft:air"
+  },
+  "direction": "up",
+  "prioritize_tip": false,
+  "layers": [
+    {
+      "height": {
+        "type": "minecraft:biased_to_bottom",
+        "min_inclusive": 2,
+        "max_inclusive": 8
+      },
+      "provider": {
+        "id": "oddlands:ribstone",
+        "properties": {
+          "axis": "y"
+        }
+      }
+    }
+  ]
+}

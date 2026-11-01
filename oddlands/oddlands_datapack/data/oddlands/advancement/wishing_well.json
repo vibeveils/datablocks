@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "activated": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.oddlands.wishing_well.description"
+    },
+    "icon": {
+      "id": "minecraft:copper_nugget"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.oddlands.wishing_well.title"
+    }
+  },
+  "requirements": [
+    [
+      "activated"
+    ]
+  ]
+}
