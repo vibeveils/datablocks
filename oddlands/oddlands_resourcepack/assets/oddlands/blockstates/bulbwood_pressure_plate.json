@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "oddlands:block/bulbwood_pressure_plate"
+    },
+    "powered=true": {
+      "model": "oddlands:block/bulbwood_pressure_plate_down"
+    }
+  }
+}

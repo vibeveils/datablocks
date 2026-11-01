@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "oddlands:block/squishmoss"
+      },
+      {
+        "model": "oddlands:block/squishmoss",
+        "y": 90
+      },
+      {
+        "model": "oddlands:block/squishmoss",
+        "y": 180
+      },
+      {
+        "model": "oddlands:block/squishmoss",
+        "y": 270
+      }
+    ]
+  }
+}

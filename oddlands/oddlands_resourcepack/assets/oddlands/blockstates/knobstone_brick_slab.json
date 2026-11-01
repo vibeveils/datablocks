@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oddlands:block/knobstone_brick_slab"
+    },
+    "type=double": {
+      "model": "oddlands:block/knobstone_bricks"
+    },
+    "type=top": {
+      "model": "oddlands:block/knobstone_brick_slab_top"
+    }
+  }
+}

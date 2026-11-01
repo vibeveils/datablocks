@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oddlands:block/bulbwood_slab"
+    },
+    "type=double": {
+      "model": "oddlands:block/bulbwood_planks"
+    },
+    "type=top": {
+      "model": "oddlands:block/bulbwood_slab_top"
+    }
+  }
+}

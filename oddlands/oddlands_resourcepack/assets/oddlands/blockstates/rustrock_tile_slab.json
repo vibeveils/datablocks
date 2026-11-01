@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "oddlands:block/rustrock_tile_slab"
+    },
+    "type=double": {
+      "model": "oddlands:block/rustrock_tiles"
+    },
+    "type=top": {
+      "model": "oddlands:block/rustrock_tile_slab_top"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "oddlands:block/gawkcap_stem"
+    },
+    "axis=z": {
+      "model": "oddlands:block/gawkcap_stem_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "oddlands:block/gawkcap_stem_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

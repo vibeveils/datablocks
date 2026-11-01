@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "oddlands:block/ribstone"
+    },
+    "axis=z": {
+      "model": "oddlands:block/ribstone_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "oddlands:block/ribstone_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

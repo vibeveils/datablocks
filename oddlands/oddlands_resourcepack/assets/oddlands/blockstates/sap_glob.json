@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oddlands:block/sap_glob"
+    }
+  }
+}

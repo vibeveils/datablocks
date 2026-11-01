@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "oddlands:block/bulbwood_log"
+    },
+    "axis=z": {
+      "model": "oddlands:block/bulbwood_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "oddlands:block/bulbwood_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

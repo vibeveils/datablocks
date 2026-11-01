@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "oddlands:block/tooth_crystal"
+    },
+    "facing=down": {
+      "model": "oddlands:block/tooth_crystal",
+      "x": 180
+    },
+    "facing=north": {
+      "model": "oddlands:block/tooth_crystal",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "oddlands:block/tooth_crystal",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "oddlands:block/tooth_crystal",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "oddlands:block/tooth_crystal",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
