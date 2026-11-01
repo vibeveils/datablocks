@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "oddlands:chalk_bricks",
+  "result": {
+    "count": 1,
+    "id": "oddlands:chalk_brick_stairs"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "oddlands:knobstone_bricks",
+  "result": {
+    "count": 1,
+    "id": "oddlands:knobstone_brick_wall"
+  }
+}

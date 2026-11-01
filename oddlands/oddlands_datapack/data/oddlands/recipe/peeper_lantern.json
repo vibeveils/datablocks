@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "K": "oddlands:knobstone",
+    "G": "oddlands:gawkcap"
+  },
+  "pattern": [
+    " K ",
+    "KGK",
+    " K "
+  ],
+  "result": {
+    "count": 1,
+    "id": "oddlands:peeper_lantern"
+  }
+}
