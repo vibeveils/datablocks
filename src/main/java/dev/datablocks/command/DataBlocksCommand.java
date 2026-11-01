@@ -7,8 +7,10 @@ import com.mojang.brigadier.CommandDispatcher;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
 
 import dev.datablocks.block.DataBlockRegistry;
+import dev.datablocks.load.PendingBlocks;
 import dev.datablocks.server.ServerDefinitions;
 
 /** {@code /datablocks} — read-only status: what is registered, what the current data packs use, what needs a restart. */
@@ -47,13 +49,16 @@ public final class DataBlocksCommand {
 					CommandSourceStack source = context.getSource();
 					List<String> restart = ServerDefinitions.needsRestart();
 
-					if (restart.isEmpty()) {
+					List<Identifier> installed = PendingBlocks.lastInstalled();
+
+					if (restart.isEmpty() && installed.isEmpty()) {
 						source.sendSuccess(() -> Component.literal("Nothing is waiting for a restart."), false);
 					} else {
 						restart.forEach(line -> source.sendSuccess(() -> Component.literal(" * " + line), false));
+						installed.forEach(id -> source.sendSuccess(() -> Component.literal(" * " + id + " installed, registers on restart"), false));
 					}
 
-					return restart.size();
+					return restart.size() + installed.size();
 				})));
 	}
 }

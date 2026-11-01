@@ -40,6 +40,7 @@ import dev.datablocks.api.BlockDefinition;
  * <ol>
  *   <li>mod jars that ship {@code data/<ns>/block_definition/} files</li>
  *   <li>{@code <game dir>/datablocks/packs/} — packs that apply to every world (good for modpacks)</li>
+ *   <li>{@code <game dir>/datablocks/auto_installed/} — definitions caught from data packs that were added before their blocks existed</li>
  *   <li>world data packs: {@code <level-name>/datapacks/} on a dedicated server, every {@code saves/<world>/datapacks/} on a client</li>
  *   <li>{@code <game dir>/datablocks/server_cache/} — definitions downloaded from servers (client only)</li>
  * </ol>
@@ -91,6 +92,10 @@ public final class StartupLoader {
 
 		scanPackFolder(packsDir(), "global pack", found);
 		Set<Identifier> global = Set.copyOf(found.keySet());
+
+		// Picked up from data packs that failed to load because their blocks weren't registered yet (PendingBlocks).
+		// Not global: they only show up in worlds whose data packs define them.
+		scanRoot(PendingBlocks.dir(), "auto-installed", found);
 
 		if (loader.getEnvironmentType() == EnvType.SERVER) {
 			String levelName = readLevelName(gameDir);

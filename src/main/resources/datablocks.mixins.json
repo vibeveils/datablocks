@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "dev.datablocks.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"RegistryDataLoaderMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
