@@ -1,0 +1,13 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 5,
+      "resistance": 6
+    },
+    "sound": "metal",
+    "requires_tool": true,
+    "redstone_power": 15,
+    "redstone_conductor": false,
+    "map_color": "fire"
+  }
+}

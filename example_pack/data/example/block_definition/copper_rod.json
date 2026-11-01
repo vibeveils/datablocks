@@ -1,0 +1,18 @@
+{
+  "components": {
+    "strength": 3,
+    "sound": "copper",
+    "placement": "facing_surface",
+    "waterloggable": true,
+    "shape": [
+      6,
+      6,
+      0,
+      10,
+      10,
+      16
+    ],
+    "light_emission": 7,
+    "requires_tool": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "components": {
+    "strength": 0.5,
+    "sound": "glass",
+    "friction": 0.98,
+    "map_color": "ice"
+  }
+}

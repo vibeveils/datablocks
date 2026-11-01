@@ -1,0 +1,6 @@
+{
+  "components": {
+    "copy_properties": "minecraft:oak_leaves",
+    "drops": "self"
+  }
+}

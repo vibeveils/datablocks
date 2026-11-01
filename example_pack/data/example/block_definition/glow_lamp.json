@@ -1,0 +1,9 @@
+{
+  "components": {
+    "strength": 0.3,
+    "sound": "glass",
+    "light_emission": 15,
+    "emissive": true,
+    "map_color": "color_yellow"
+  }
+}

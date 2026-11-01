@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "example:marble",
+      "required": false
+    },
+    {
+      "id": "example:marble_pillar",
+      "required": false
+    },
+    {
+      "id": "example:stepping_stone",
+      "required": false
+    },
+    {
+      "id": "example:ice_tile",
+      "required": false
+    },
+    {
+      "id": "example:copper_rod",
+      "required": false
+    },
+    {
+      "id": "example:charged_block",
+      "required": false
+    },
+    {
+      "id": "example:glow_lamp",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "components": {
+    "copy_properties": "minecraft:sand",
+    "gravity": true,
+    "speed_factor": 0.4,
+    "jump_factor": 0.5,
+    "sound": {
+      "base": "sand",
+      "pitch": 0.7
+    }
+  }
+}

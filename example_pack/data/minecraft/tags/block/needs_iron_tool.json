@@ -1,0 +1,8 @@
+{
+  "values": [
+    {
+      "id": "example:charged_block",
+      "required": false
+    }
+  ]
+}

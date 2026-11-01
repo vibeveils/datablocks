@@ -1,0 +1,20 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 1.0,
+      "resistance": 6
+    },
+    "sound": "stone",
+    "requires_tool": true,
+    "shape": [
+      0,
+      0,
+      0,
+      16,
+      4,
+      16
+    ],
+    "waterloggable": true,
+    "map_color": "stone"
+  }
+}

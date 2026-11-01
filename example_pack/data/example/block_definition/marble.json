@@ -1,0 +1,17 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 1.5,
+      "resistance": 6
+    },
+    "sound": "calcite",
+    "map_color": "quartz",
+    "requires_tool": true,
+    "instrument": "basedrum",
+    "item": {
+      "creative_tabs": [
+        "minecraft:building_blocks"
+      ]
+    }
+  }
+}

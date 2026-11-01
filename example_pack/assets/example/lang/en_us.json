@@ -1,0 +1,12 @@
+{
+  "block.example.marble": "Marble",
+  "block.example.marble_pillar": "Marble Pillar",
+  "block.example.glow_lamp": "Glow Lamp",
+  "block.example.crate": "Crate",
+  "block.example.stepping_stone": "Stepping Stone",
+  "block.example.hedge": "Hedge",
+  "block.example.quicksand": "Quicksand",
+  "block.example.ice_tile": "Ice Tile",
+  "block.example.copper_rod": "Copper Rod",
+  "block.example.charged_block": "Charged Block"
+}

@@ -1,0 +1,17 @@
+{
+  "components": {
+    "copy_properties": "minecraft:barrel",
+    "placement": "horizontal",
+    "flammable": {
+      "ignite_odds": 5,
+      "burn_odds": 20
+    },
+    "ignited_by_lava": true,
+    "item": {
+      "components": {
+        "max_stack_size": 16,
+        "rarity": "uncommon"
+      }
+    }
+  }
+}
