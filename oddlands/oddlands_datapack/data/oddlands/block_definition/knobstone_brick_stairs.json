@@ -1,0 +1,9 @@
+{
+  "components": {
+    "copy_properties": "oddlands:knobstone_bricks",
+    "kind": {
+      "type": "stairs",
+      "base": "oddlands:knobstone_bricks"
+    }
+  }
+}

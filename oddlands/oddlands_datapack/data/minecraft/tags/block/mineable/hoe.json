@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "oddlands:jellyleaf",
+      "required": false
+    },
+    {
+      "id": "oddlands:squish_cushion",
+      "required": false
+    },
+    {
+      "id": "oddlands:sap_glob",
+      "required": false
+    },
+    {
+      "id": "oddlands:squishmoss",
+      "required": false
+    }
+  ]
+}

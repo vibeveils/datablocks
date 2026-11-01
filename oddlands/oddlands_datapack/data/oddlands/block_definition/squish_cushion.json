@@ -1,0 +1,12 @@
+{
+  "components": {
+    "strength": 0.8,
+    "sound": "wool",
+    "map_color": "color_cyan",
+    "jump_factor": 1.7,
+    "flammable": {
+      "ignite_odds": 30,
+      "burn_odds": 60
+    }
+  }
+}

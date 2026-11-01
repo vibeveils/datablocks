@@ -1,0 +1,11 @@
+{
+  "components": {
+    "copy_properties": "minecraft:oak_planks",
+    "map_color": "terracotta_pink",
+    "flammable": {
+      "ignite_odds": 5,
+      "burn_odds": 20
+    },
+    "ignited_by_lava": true
+  }
+}

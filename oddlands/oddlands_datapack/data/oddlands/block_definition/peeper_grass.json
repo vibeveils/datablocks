@@ -1,0 +1,21 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "xz",
+    "sound": "grass",
+    "push_reaction": "popped",
+    "survives_on": "#oddlands:lush_soils",
+    "replaceable": true,
+    "drops": "none",
+    "shape": [
+      2,
+      0,
+      2,
+      14,
+      10,
+      14
+    ]
+  }
+}

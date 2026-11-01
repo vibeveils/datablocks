@@ -1,0 +1,9 @@
+{
+  "components": {
+    "strength": 1.5,
+    "sound": "lantern",
+    "light_emission": 15,
+    "emissive": true,
+    "map_color": "color_cyan"
+  }
+}

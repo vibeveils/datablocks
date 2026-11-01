@@ -1,0 +1,23 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "none",
+    "sound": "grass",
+    "push_reaction": "popped",
+    "survives_on": "#oddlands:lush_soils",
+    "shape": [
+      4,
+      0,
+      4,
+      12,
+      13,
+      12
+    ],
+    "functions": {
+      "random_tick": "oddlands:flora/sprout_tick",
+      "use": "oddlands:flora/sprout_use"
+    }
+  }
+}

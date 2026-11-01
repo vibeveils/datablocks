@@ -1,0 +1,10 @@
+{
+  "components": {
+    "copy_properties": "minecraft:oak_pressure_plate",
+    "kind": {
+      "type": "pressure_plate",
+      "block_set": "oak"
+    },
+    "map_color": "terracotta_pink"
+  }
+}

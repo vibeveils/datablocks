@@ -1,0 +1,8 @@
+{
+  "components": {
+    "strength": 1,
+    "sound": "wart_block",
+    "light_emission": 10,
+    "map_color": "color_purple"
+  }
+}

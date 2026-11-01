@@ -1,0 +1,23 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "xz",
+    "sound": "grass",
+    "push_reaction": "popped",
+    "survives_on": "#oddlands:dry_soils",
+    "shape": [
+      2,
+      0,
+      2,
+      14,
+      13,
+      14
+    ],
+    "flammable": {
+      "ignite_odds": 60,
+      "burn_odds": 100
+    }
+  }
+}

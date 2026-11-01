@@ -1,0 +1,8 @@
+{
+  "components": {
+    "placement": "axis",
+    "strength": 1,
+    "sound": "stem",
+    "map_color": "terracotta_white"
+  }
+}

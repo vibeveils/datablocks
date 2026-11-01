@@ -1,0 +1,12 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 2,
+      "resistance": 6
+    },
+    "sound": "basalt",
+    "map_color": "terracotta_blue",
+    "requires_tool": true,
+    "instrument": "basedrum"
+  }
+}

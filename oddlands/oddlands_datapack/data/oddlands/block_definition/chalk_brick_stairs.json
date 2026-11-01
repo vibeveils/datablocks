@@ -1,0 +1,9 @@
+{
+  "components": {
+    "copy_properties": "oddlands:chalk_bricks",
+    "kind": {
+      "type": "stairs",
+      "base": "oddlands:chalk_bricks"
+    }
+  }
+}

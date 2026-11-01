@@ -1,0 +1,27 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "xz",
+    "sound": "fungus",
+    "push_reaction": "popped",
+    "survives_on": [
+      "#oddlands:lush_soils",
+      "oddlands:knobstone",
+      "oddlands:dripcrust"
+    ],
+    "light_emission": 7,
+    "shape": [
+      4,
+      0,
+      4,
+      12,
+      10,
+      12
+    ],
+    "functions": {
+      "use": "oddlands:flora/gawkcap_use"
+    }
+  }
+}

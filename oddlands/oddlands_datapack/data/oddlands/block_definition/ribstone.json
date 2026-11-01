@@ -1,0 +1,10 @@
+{
+  "components": {
+    "placement": "axis",
+    "strength": 2,
+    "sound": "bone_block",
+    "map_color": "sand",
+    "requires_tool": true,
+    "instrument": "basedrum"
+  }
+}

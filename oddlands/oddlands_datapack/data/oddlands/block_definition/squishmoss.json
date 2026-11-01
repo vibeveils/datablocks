@@ -1,0 +1,8 @@
+{
+  "components": {
+    "strength": 0.6,
+    "sound": "moss",
+    "map_color": "color_cyan",
+    "jump_factor": 1.15
+  }
+}

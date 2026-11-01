@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "oddlands:copperknob_ore",
+      "required": false
+    },
+    {
+      "id": "oddlands:tooth_crystal",
+      "required": false
+    }
+  ]
+}

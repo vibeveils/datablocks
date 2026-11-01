@@ -1,0 +1,19 @@
+{
+  "components": {
+    "placement": "facing_surface",
+    "strength": 1.5,
+    "sound": "amethyst_cluster",
+    "light_emission": 5,
+    "occludes": false,
+    "requires_tool": true,
+    "push_reaction": "popped",
+    "shape": [
+      4,
+      4,
+      6,
+      12,
+      12,
+      16
+    ]
+  }
+}

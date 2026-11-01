@@ -1,0 +1,10 @@
+{
+  "components": {
+    "copy_properties": "minecraft:oak_door",
+    "kind": {
+      "type": "door",
+      "block_set": "oak"
+    },
+    "map_color": "terracotta_pink"
+  }
+}

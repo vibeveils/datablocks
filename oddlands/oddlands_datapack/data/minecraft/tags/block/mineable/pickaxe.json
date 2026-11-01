@@ -1,0 +1,92 @@
+{
+  "values": [
+    {
+      "id": "oddlands:knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:polished_knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone_bricks",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "oddlands:knobstone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "oddlands:chiseled_knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:copperknob_ore",
+      "required": false
+    },
+    {
+      "id": "oddlands:dripcrust",
+      "required": false
+    },
+    {
+      "id": "oddlands:bonestone",
+      "required": false
+    },
+    {
+      "id": "oddlands:chalk_bricks",
+      "required": false
+    },
+    {
+      "id": "oddlands:chalk_brick_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:chalk_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:banded_rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock_tiles",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock_tile_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "oddlands:ribstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:tooth_crystal",
+      "required": false
+    },
+    {
+      "id": "oddlands:peeper_lantern",
+      "required": false
+    },
+    {
+      "id": "oddlands:wishing_water",
+      "required": false
+    }
+  ]
+}

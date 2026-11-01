@@ -1,0 +1,9 @@
+{
+  "components": {
+    "copy_properties": "oddlands:rustrock_tiles",
+    "kind": {
+      "type": "stairs",
+      "base": "oddlands:rustrock_tiles"
+    }
+  }
+}

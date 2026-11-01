@@ -1,0 +1,12 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 1.2,
+      "resistance": 4
+    },
+    "sound": "bone_block",
+    "map_color": "sand",
+    "requires_tool": true,
+    "instrument": "basedrum"
+  }
+}

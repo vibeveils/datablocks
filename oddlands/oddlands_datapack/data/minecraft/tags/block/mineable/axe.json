@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "oddlands:bulbwood_log",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_planks",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_stairs",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_fence",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_door",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_button",
+      "required": false
+    },
+    {
+      "id": "oddlands:bulbwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "oddlands:gawkcap_stem",
+      "required": false
+    },
+    {
+      "id": "oddlands:gawkcap_cap",
+      "required": false
+    }
+  ]
+}

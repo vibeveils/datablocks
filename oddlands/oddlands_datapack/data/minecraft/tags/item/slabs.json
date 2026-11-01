@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "oddlands:knobstone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:chalk_brick_slab",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock_tile_slab",
+      "required": false
+    }
+  ]
+}

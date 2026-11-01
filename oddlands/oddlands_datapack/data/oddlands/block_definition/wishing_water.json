@@ -1,0 +1,60 @@
+{
+  "components": {
+    "strength": 1,
+    "sound": "amethyst",
+    "collision": false,
+    "occludes": false,
+    "light_emission": 12,
+    "emissive": true,
+    "push_reaction": "immoveable",
+    "drops": "none",
+    "map_color": "color_cyan",
+    "shape": [
+      0,
+      0,
+      0,
+      16,
+      13,
+      16
+    ],
+    "functions": {
+      "entity_inside": "oddlands:portal/enter"
+    },
+    "ambient_particles": [
+      {
+        "particle": "minecraft:glow",
+        "chance": 0.6,
+        "offset": [
+          0,
+          0.35,
+          0
+        ],
+        "spread": [
+          0.45,
+          0.05,
+          0.45
+        ],
+        "velocity": [
+          0,
+          0.04,
+          0
+        ]
+      },
+      {
+        "particle": "minecraft:wax_off",
+        "chance": 0.3,
+        "count": 2,
+        "offset": [
+          0,
+          0.5,
+          0
+        ],
+        "spread": [
+          0.5,
+          0.3,
+          0.5
+        ]
+      }
+    ]
+  }
+}

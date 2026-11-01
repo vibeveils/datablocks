@@ -1,0 +1,12 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 1.25,
+      "resistance": 4.2
+    },
+    "sound": "nether_bricks",
+    "map_color": "terracotta_orange",
+    "requires_tool": true,
+    "instrument": "basedrum"
+  }
+}

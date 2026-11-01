@@ -1,0 +1,10 @@
+{
+  "components": {
+    "copy_properties": "minecraft:oak_trapdoor",
+    "kind": {
+      "type": "trapdoor",
+      "block_set": "oak"
+    },
+    "map_color": "terracotta_pink"
+  }
+}

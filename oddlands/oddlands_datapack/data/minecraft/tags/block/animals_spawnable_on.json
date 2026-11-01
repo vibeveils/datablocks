@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "oddlands:squishmoss",
+      "required": false
+    },
+    {
+      "id": "oddlands:chalkdust",
+      "required": false
+    }
+  ]
+}

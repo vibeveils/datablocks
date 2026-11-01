@@ -1,0 +1,16 @@
+{
+  "values": [
+    {
+      "id": "oddlands:knobstone",
+      "required": false
+    },
+    {
+      "id": "oddlands:rustrock",
+      "required": false
+    },
+    {
+      "id": "oddlands:bonestone",
+      "required": false
+    }
+  ]
+}

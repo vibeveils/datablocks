@@ -1,0 +1,21 @@
+{
+  "components": {
+    "strength": 0.2,
+    "sound": "wool",
+    "occludes": false,
+    "push_reaction": "popped",
+    "offset": "xz",
+    "shape": [
+      3,
+      0,
+      3,
+      13,
+      8,
+      13
+    ],
+    "survives_on": "#oddlands:dry_soils",
+    "functions": {
+      "step_on": "oddlands:flora/dustpuff_step"
+    }
+  }
+}

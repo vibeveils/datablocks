@@ -1,0 +1,22 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "sound": "hanging_roots",
+    "light_emission": 4,
+    "push_reaction": "popped",
+    "shape": [
+      3,
+      0,
+      3,
+      13,
+      16,
+      13
+    ],
+    "survives_on": {
+      "blocks": "#oddlands:dangle_anchor",
+      "direction": "up"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "components": {
+    "strength": {
+      "hardness": 1.5,
+      "resistance": 6
+    },
+    "sound": "tuff",
+    "map_color": "terracotta_purple",
+    "requires_tool": true,
+    "instrument": "basedrum"
+  }
+}

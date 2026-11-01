@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "The Oddlands: a floating-island dimension reached through wishing wells (needs Data Blocks)",
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      999,
+      0
+    ]
+  }
+}

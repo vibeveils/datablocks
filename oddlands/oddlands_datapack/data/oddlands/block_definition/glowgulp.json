@@ -1,0 +1,42 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "none",
+    "sound": "big_dripleaf",
+    "push_reaction": "popped",
+    "survives_on": "#oddlands:lush_soils",
+    "light_emission": 13,
+    "shape": [
+      3,
+      0,
+      3,
+      13,
+      13,
+      13
+    ],
+    "ambient_particles": {
+      "particle": "minecraft:glow",
+      "chance": 0.15,
+      "offset": [
+        0,
+        0.1,
+        0
+      ],
+      "spread": [
+        0.3,
+        0.3,
+        0.3
+      ],
+      "velocity": [
+        0,
+        0.01,
+        0
+      ]
+    },
+    "functions": {
+      "use": "oddlands:flora/glowgulp_use"
+    }
+  }
+}

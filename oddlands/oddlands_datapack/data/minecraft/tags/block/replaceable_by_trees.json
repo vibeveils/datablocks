@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "oddlands:peeper_grass",
+      "required": false
+    },
+    {
+      "id": "oddlands:ribgrass",
+      "required": false
+    },
+    {
+      "id": "oddlands:sulkweed",
+      "required": false
+    },
+    {
+      "id": "oddlands:jellyleaf",
+      "required": false
+    }
+  ]
+}

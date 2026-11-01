@@ -1,0 +1,37 @@
+{
+  "components": {
+    "collision": false,
+    "instabreak": true,
+    "occludes": false,
+    "offset": "xz",
+    "sound": "grass",
+    "push_reaction": "popped",
+    "survives_on": "#oddlands:lush_soils",
+    "light_emission": 3,
+    "shape": [
+      5,
+      0,
+      5,
+      11,
+      12,
+      11
+    ],
+    "ambient_particles": {
+      "particle": "minecraft:glow",
+      "chance": 0.04,
+      "offset": [
+        0,
+        0.2,
+        0
+      ],
+      "spread": [
+        0.2,
+        0.2,
+        0.2
+      ]
+    },
+    "functions": {
+      "use": "oddlands:flora/blinkbloom_use"
+    }
+  }
+}
