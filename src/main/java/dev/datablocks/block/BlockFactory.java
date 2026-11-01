@@ -61,7 +61,15 @@ public final class BlockFactory {
 
 		ResourceKey<Block> blockKey = ResourceKey.create(Registries.BLOCK, id);
 		BlockBehaviour.Properties properties = createProperties(definition).setId(blockKey);
-		Block block = Registry.register(BuiltInRegistries.BLOCK, blockKey, create(definition, properties));
+		Block block;
+
+		try {
+			block = Registry.register(BuiltInRegistries.BLOCK, blockKey, create(definition, properties));
+		} catch (RuntimeException e) {
+			// Minecraft validates block properties while registering; say which pack file broke the rule.
+			throw new IllegalStateException("Data block " + id + " could not be registered: " + e.getMessage()
+					+ " (check data/" + id.getNamespace() + "/block_definition/" + id.getPath() + ".json)", e);
+		}
 
 		ItemSpec itemSpec = definition.getOrDefault(BlockComponents.ITEM, ItemSpec.DEFAULT);
 

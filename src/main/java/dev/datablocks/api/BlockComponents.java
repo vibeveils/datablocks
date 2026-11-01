@@ -157,9 +157,10 @@ public final class BlockComponents {
 			BlockComponentType.builder(DataBlocks.id("offset"), DataCodecs.validatedString(name ->
 							name.equals("xz") || name.equals("xyz") || name.equals("none") ? null : "offset must be xz, xyz or none"))
 					.properties((props, value, def) -> {
+						// Minecraft refuses offset blocks with a collision box unless their shape is marked dynamic.
 						switch (value) {
-							case "xz" -> props.offsetType(BlockBehaviour.OffsetType.XZ);
-							case "xyz" -> props.offsetType(BlockBehaviour.OffsetType.XYZ);
+							case "xz" -> props.offsetType(BlockBehaviour.OffsetType.XZ).dynamicShape();
+							case "xyz" -> props.offsetType(BlockBehaviour.OffsetType.XYZ).dynamicShape();
 							default -> {
 							}
 						}
