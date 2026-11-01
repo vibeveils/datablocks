@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "oddlands:block/chalk_bricks",
+    "side": "oddlands:block/chalk_bricks",
+    "top": "oddlands:block/chalk_bricks"
+  }
+}

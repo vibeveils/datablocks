@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "oddlands:block/squishmoss_top",
+    "side": "oddlands:block/squishmoss_side",
+    "bottom": "oddlands:block/mulch"
+  }
+}

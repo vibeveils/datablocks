@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "The Oddlands: textures and models",
+    "min_format": [
+      97,
+      0
+    ],
+    "max_format": [
+      999,
+      0
+    ]
+  }
+}

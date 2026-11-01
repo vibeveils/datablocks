@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "oddlands:block/gawkcap_stem",
+    "end": "oddlands:block/gawkcap_stem_top"
+  }
+}

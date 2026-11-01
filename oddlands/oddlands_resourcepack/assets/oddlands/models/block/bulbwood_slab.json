@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "oddlands:block/bulbwood_planks",
+    "side": "oddlands:block/bulbwood_planks",
+    "top": "oddlands:block/bulbwood_planks"
+  }
+}

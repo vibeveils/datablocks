@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "oddlands:block/bulbwood_door_bottom",
+    "top": "oddlands:block/bulbwood_door_top"
+  }
+}
