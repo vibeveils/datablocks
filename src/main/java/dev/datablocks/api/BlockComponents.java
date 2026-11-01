@@ -149,7 +149,7 @@ public final class BlockComponents {
 
 	public static final BlockComponentType<Boolean> VIEW_BLOCKING = register(
 			BlockComponentType.builder(DataBlocks.id("view_blocking"), Codec.BOOL)
-					.properties((props, value, def) -> props.isViewBlocking((state, level, pos) -> value))
+					.properties((props, value, def) -> props.isViewBlocking((state, level, pos, nearPlane) -> value))
 					.build());
 
 	/** Random horizontal (and optionally vertical) offset per position, like flowers and grass: {@code xz} or {@code xyz}. */
