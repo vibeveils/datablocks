@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "datablocks",
+	"version": "${version}",
+	"name": "Data Blocks",
+	"description": "Define custom blocks with components in data packs and resource packs. Worlds and servers can ship their own blocks without a Java mod.",
+	"authors": [
+		"codedcells"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.datablocks.DataBlocks"
+		],
+		"client": [
+			"dev.datablocks.client.DataBlocksClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
